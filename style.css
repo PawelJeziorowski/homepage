@@ -1,16 +1,40 @@
 body {
-	background-color: #1460aa;
+	background-color: #98e7b6;
 }
 h1 {
 	color: gray;
 }
 
 h2 {
-	color: #14aa1c;
-	background-color: #1460aa;
+	color: #2b14aa;
+	background-color: #98e7b6;
 }
 
 section {
-	background-color: #1460aa;
-	color: #14aa1c;
+	background-color: #98e7b6;
+	color: #4114aa;
 }
+.czerwony {
+	color:red;
+}
+#wiek{
+	background-color: yellow;
+}
+/* p{
+	color: blueviolet !important;
+} */
+ a{
+	color: green;
+ }
+ section a{
+	color: orange;
+ }
+.my-article p {
+ background-color: pink;
+ }
+ .lastname{
+	color: black;
+ }
+ #name {
+	color: white;
+ }

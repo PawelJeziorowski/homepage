@@ -18,7 +18,7 @@ section {
 	color:red;
 }
 #wiek{
-	background-color: yellow;
+	background-color: rgb(255, 0, 13);
 }
 /* p{
 	color: blueviolet !important;
@@ -36,5 +36,8 @@ section {
 	color: black;
  }
  #name {
-	color: white;
+	color: rgb(255, 255, 255);
+ }
+ .bug {
+	color: green;
  }

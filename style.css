@@ -1,5 +1,6 @@
 body {
 	background-color: aquamarine;
+	background-image: url('/gund.jpg');
 }
 
 .topic {
@@ -15,6 +16,7 @@ body {
 	margin-bottom: 25px;
 	max-width: 600px;
 	max-height: 100px;
+
 }
 
 .sekcja {
@@ -33,7 +35,9 @@ body {
 	margin-top: 25px;
 	margin-bottom: 25px;
 
+
 }
+
 
 .sekcja__naglowek {
 	color: blueviolet;
@@ -65,8 +69,17 @@ body {
 }
 
 .sekcja__picture {
+	display: block;
+	max-width: 100%;
 	border-width: 20px;
 	border-color: red;
 	border-radius: 100%;
 	border-style: solid;
+	
+}
+.topic__two{
+	background-color: gold;
+	padding: 25px;
+	display: inline;
+	
 }

@@ -9,3 +9,9 @@ console.log(a);
 
 let b =document.querySelector('.ala');
 b.innerHTML= 'Gundulka jest wieczna!'
+let name ="Leon";
+let age1 = 33;
+function welcome (a,b){
+    console.log("Witaj "+ a + " masz " + b + " lata")
+}
+welcome(name, age1);

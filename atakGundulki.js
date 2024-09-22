@@ -16,11 +16,8 @@ function welcome (a,b){
 }
 welcome(name, age1);
 
-
 const hamburger = document.querySelector(".hamburger--js");
 hamburger.addEventListener('click',() =>{
 const navigation = document.querySelector(".navigation--js");
 navigation.classList.toggle('navigation--open');
-}
-
-)
+})

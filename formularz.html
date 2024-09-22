@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="pl">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Strona o Gundulce!!</title>
+    <link href="normalize.css" rel="stylesheet" type="text/css">
+    <link href="style.css" rel="stylesheet" type="text/css">
+</head>
+
+<body>
+    <header class="header">
+        <nav class="navigation navigation--js navigation--open">
+            <a href="index.html" class="topic__two">Powrót na główną stronę</a>
+            <a href="nauka-html.html" class="topic__two">Podstrona ze zdjęciami Gundulki</a>
+            <a href="nauka-html.html" class="topic__two">Instagram</a>
+            <a href="nauka-html.html" class="topic__two">Facebook</a>
+        </nav>
+        <button class="hamburger hamburger--js" aria-label="Menu">Menu</button>
+    </header>
+    <main class="plan">
+        <header class="topic">
+            <h1><strong>Formularz o Gundulce</h1>
+        </header>
+        <section class="form">
+            <form action="https://forms.cotenfrontend.pl" method="post">
+                <fieldset>
+                    <legend>Dane kontaktowe</legend>
+                    <p>
+                        <label for="firstName">Imię:</label>
+                        <input name="firstName" id="firstName" type="text" placeholder="Gundulka" />
+                    </p>
+                    <p>
+                        <label for="lastName">Nazwisko:</label>
+                        <input name="lastName" id="lastName" type="text" placeholder="Gundulowska" />
+                    </p>
+                    <p>
+                        <label for="adres">Adres:</label>
+                        <input name="adres" id="adres" type="text" placeholder="Cały wszechświat, albo adres" />
+                    </p>
+                    <p>
+                        <label for="email">E-mail:</label>
+                        <input name="email" id="email" type="email" placeholder="gundula666@gmail.com" />
+                    </p>
+                    <p>
+                        <label for="riddle">Zagadka:</label>
+                        <input name="riddle" id="riddle" type="riddle" placeholder="cotenfrontend" />
+                    </p>
+
+                </fieldset>
+                <fieldset>
+                    <legend>Jaka jest Gundulka</legend>
+                    <p>
+                        <input name="question1" id="question1" type="radio" value="Najlepsza" checked />
+                        <label for="question1"> Najlepsza</label>
+                    </p>
+                    <p>
+                        <input name="question1" id="question1" type="radio" value="Najwspanialsza" />
+                        <label for="question1"> Najwspanialsza</label>
+                    </p>
+                    <p>
+                        <input name="question1" id="question1" type="radio" value="Najpuchatsza" />
+                        <label for="question1"> Najpuchatsza</label>
+                    </p>
+                    <p>
+                        <input name="question1" id="question1" type="radio" value="Najsilniejsza" />
+                        <label for="question1"> Najsilniejsza</label>
+                    </p>
+                    <p>
+                        <input name="question1" id="question1" type="radio" value="Wszystkie powyższe" />
+                        <label for="question1"> Wszystkie powyższe</label>
+                    </p>
+                </fieldset>
+                <fieldset>
+                    <legend>Co lubi Gundulka?</legend>
+                    <p>
+                        <input name="question2" id="question2" type="checkbox" value="Spanko" />
+                        <label for="question2"> Spanko</label>
+                    </p>
+                    <p>
+                        <input name="question2" id="question2" type="checkbox" value="Jedzonki" />
+                        <label for="question2"> Jedzonki</label>
+                    </p>
+                    <p>
+                        <input name="question2" id="question2" type="checkbox" value="Podbijać wszechświat" />
+                        <label for="question2"> Podbijać wszechświat</label>
+                    </p>
+                    <p>
+                        <input name="question2" id="question2" type="checkbox" value="Ciepłe kocyki" />
+                        <label for="question2"> Ciepłe kocyki</label>
+                    </p>
+                    <fieldset>
+                        <legend>Ankieta</legend>
+                        <p>
+                            <label for="numer">Ulubiony numer:</label>
+                            <input name="numer" id="numer" type="number" placeholder="18" />
+                        </p>
+                        <p>
+                            <label for="sizeGundulaLove">Jak bardzo kochasz Gundulkę:</label>
+                            <select name="sizeGundulaLove" id="sizeGundulaLove">
+                                <option value="Bardzo kocham Gundulkę">Bardzo kocham Gundulkę</option>
+                                <option value="Bardziej kocham Gundulkę">Bardziej kocham Gundulkę</option>
+                                <option value="Najbardziej kocham Gundulkę">Najbardziej kocham Gundulkę</option>
+                                <option selected value="Kocham Gundulkę nad życie">Kocham Gundulkę nad życie</option>
+                            </select>
+                        </p>
+                        <p>
+                            <label for="comment">Napisz co myślisz o Gundulce:</label><br />
+                            <textarea name="comment" class="comment" id="comment"
+                                placeholder="np. Gundulka jest najwspanialsza, najlepsza, najsilniejsza oraz najpuchatsza."></textarea>
+                        </p>
+                    </fieldset>
+                    <p>
+                        <input type="submit" value="Send" />
+                    </p>
+            </form>
+
+
+
+        </section>
+    </main>
+
+</body>
+
+</html>

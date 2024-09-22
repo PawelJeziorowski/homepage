@@ -1,6 +1,6 @@
 body {
 	background-color: aquamarine;
-	background-image: url('/gund.jpg');
+	background-image: url('gund.jpg');
 	display: flex;
 	flex-direction: column;
 	gap:1rem;

@@ -15,3 +15,12 @@ function welcome (a,b){
     console.log("Witaj "+ a + " masz " + b + " lata")
 }
 welcome(name, age1);
+
+
+const hamburger = document.querySelector(".hamburger--js");
+hamburger.addEventListener('click',() =>{
+const navigation = document.querySelector(".navigation--js");
+navigation.classList.toggle('navigation--open');
+}
+
+)

@@ -1,6 +1,7 @@
 body {
 	background-color: aquamarine;
 	background-image: url('/gund.jpg');
+;
 }
 .plan{
 	display: flex;
@@ -19,8 +20,6 @@ body {
 	border-radius: 10px;
 	border-style: solid;
 	font-size: 7px;
-
-
 }
 
 .sekcja {
@@ -97,12 +96,38 @@ body {
 	border-style: solid;
 	
 }
+.header{
+	min-height: 50px;
+	background: rebeccapurple;	
+	display: flex;
+	justify-content: center;
+}
+.navigation {
+	padding: 16px;
+	background: rebeccapurple;
+	display: none;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	gap:24px;
+	position: absolute;
+	top:50px;
+	width:100%;
+}
+.navigation--open{
+display: flex;
+}
+
 .topic__two{
-	background-color: gold;
-	padding: 25px;
-	display: inline;
-	max-width: 100%;
+	color: gold;
 	
+}
+.hamburger{
+	padding: 4px;
+	background: none;
+	border: 0;
+	font-size: 1.5rem;
+	color:gold;
 }
 .photo__grid {
 	display: grid;
@@ -136,6 +161,9 @@ body {
 	border-style: solid;
 	border-radius: 0%;
 }
+.topic__two__button{
+	font-size: 16px;
+}
 
 @media screen and (min-width: 768px) {
 
@@ -157,6 +185,62 @@ body {
 		background-color: rgb(94, 255, 0);
 		border-width: 5px;
 
+		font-size: 48px;
+	
+	}
+	.hamburger{
+		display: none;
+	}
+	.navigation {
+		padding: 16px;
+		background: rebeccapurple;
+		flex-direction: row;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		position:static;
+		gap:24px;
+	}
+
+	.topic__two{
+		color:  gold;
+
+	}
+
+	.photo__grid {
+		display: grid;
+		grid-template-columns: "header"
+		repeat(3, 1fr);
+		row-gap: 2rem;
+		column-gap: 2rem;
+	}
+	.sekcja__naglowek2 {
+		font-size: 48px;	
+		grid-column: 1/4;
+		display: flex;
+		flex-direction: row;
+		justify-content: center;
+	}
+}
+@media screen and (min-width: 1440px) {
+
+	.topic {
+		background-color: green;
+		color: red;
+		padding: 15px;
+		border-width: 5px;
+		border-color: red;
+		border-radius: 10px;
+		border-style: solid;
+		font-size: 16px;
+	
+	
+	}
+
+	.sekcja {
+		box-sizing: border-box;
+		background-color: rgb(94, 255, 0);
+		border-width: 5px;
 		font-size: 48px;
 	
 	}

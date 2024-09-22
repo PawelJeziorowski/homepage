@@ -7,8 +7,6 @@ console.log(`${lastName} i zostało ci ${age} lat życia`);
 let a = document.querySelector('h1');
 console.log(a);
 
-let b =document.querySelector('.ala');
-b.innerHTML= 'Gundulka jest wieczna!'
 let name ="Leon";
 let age1 = 33;
 function welcome (a,b){
@@ -19,5 +17,6 @@ welcome(name, age1);
 const hamburger = document.querySelector(".hamburger--js");
 hamburger.addEventListener('click',() =>{
 const navigation = document.querySelector(".navigation--js");
+
 navigation.classList.toggle('navigation--open');
 })

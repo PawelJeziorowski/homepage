@@ -10,5 +10,8 @@
   "description": "",
   "dependencies": {
     "normalize.css": "^8.0.1"
+  },
+  "devDependencies": {
+    "parcel": "^2.12.0"
   }
 }

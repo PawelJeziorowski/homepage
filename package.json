@@ -1,19 +1,21 @@
 {
   "name": "homepage",
   "version": "1.0.0",
-
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start":"parcel src/index.html",
-    "build":"parcel build src/index.html"
+    "start": "parcel src/index.html",
+    "build": "parcel build src/index.html",
+    "cow": "cowsay -p Elo "
   },
   "author": "",
   "license": "ISC",
   "description": "",
   "dependencies": {
+    "cowsay": "^1.6.0",
     "normalize.css": "^8.0.1"
   },
   "devDependencies": {
+    "@parcel/transformer-sass": "^2.12.0",
     "parcel": "^2.12.0"
   }
 }

@@ -1,3 +1,6 @@
+import { alaMaKota } from "./skrypt";
+import { setDate } from "date-fns";
+import { subNum } from "./sub";
 const lastName = "Zostałaś/eś zaatakowana przez Gundulkę!";
 const age = 35;
 alert("Atak Gundulki!");
@@ -20,3 +23,8 @@ const navigation = document.querySelector(".navigation--js");
 
 navigation.classList.toggle('navigation--open');
 })
+
+const result = setDate(new Date(2014, 8, 1), 30)
+console.log(alaMaKota);
+  console.log(result);
+  console.log (subNum(2,3));

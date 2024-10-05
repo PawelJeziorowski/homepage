@@ -27,4 +27,4 @@ navigation.classList.toggle('navigation--open');
 const result = setDate(new Date(2014, 8, 1), 30)
 console.log(alaMaKota);
   console.log(result);
-  console.log (subNum(2,3));
+  console.log (subNum);

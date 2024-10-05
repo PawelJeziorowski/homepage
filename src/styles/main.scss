@@ -1,5 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
 
+
+:root {
+	--fontColor: black;
+	--backgroundColor: white;
+}
 body {
 	background-color: aquamarine;
 	background-image: url('gund.jpg');
@@ -18,8 +23,8 @@ body {
 }
 
 .form {
-	color: black;
-	background-color: white;
+	color: var(--fontColor);
+	background-color: var(--backgroundColor);
 	font-size: 2rem;
 	display: flex;
 	flex-direction: column;
@@ -30,8 +35,8 @@ body {
 }
 
 .topic {
-	background-color: rgb(211, 0, 158);
-	color: black;
+	background-color: var(--backgroundColor);
+	color: var(--fontColor);
 	padding: 15px;
 	border-width: 5px;
 	border-color: red;
@@ -56,7 +61,7 @@ body {
 
 .sekcja {
 	box-sizing: border-box;
-	background-color: aqua;
+	background-color: var(--backgroundColor);
 	border-width: 2px;
 	border-color: red;
 	border-radius: 10px;
@@ -66,7 +71,7 @@ body {
 	max-height: 100%;
 	font-size: 16px;
     &__naglowek {
-        color: rgb(46, 43, 226);
+        color: var(--fontColor);
         padding: 30px;
         max-width: 250px;
         max-height: 100px;
@@ -75,7 +80,7 @@ body {
         font-size: 100%;
     }
     &__akapit {
-        color: rgb(12, 0, 78);
+        color: var(--fontColor);
         padding: 40px;
         max-width: 250px;
         max-height: 100px;
@@ -86,7 +91,7 @@ body {
     }
     &__link {
         box-sizing: border-box;
-        background-color: aqua;
+        background-color: var(--backgroundColor);
         border-width: 5px;
         border-color: red;
         border-radius: 10px;
@@ -104,7 +109,7 @@ body {
         gap: 16px;
     }
     &__naglowekmaly {
-        color: rgb(78, 0, 0);
+        color: var(--fontColor);
         padding: 25px;
         max-width: 250px;
         max-height: 100px;
@@ -182,8 +187,8 @@ body {
 }
 
 .sekcja__naglowek2 {
-	color: rgb(47, 0, 92);
-	background-color: aqua;
+	color: var(--fontColor);
+	background-color: var(--backgroundColor);
 	font-size: 100%;
 	max-width: 100%;
 	max-height: 100px;
@@ -205,8 +210,8 @@ body {
 @media screen and (min-width: 768px) {
 
 	.topic {
-		background-color: white;
-		color: black;
+		background-color: var(--backgroundColor);
+		color: var(--fontColor);
 		padding: 15px;
 		border-width: 5px;
 		border-color: red;
@@ -219,7 +224,7 @@ body {
 
 	.sekcja {
 		box-sizing: border-box;
-		background-color: white;
+		background-color: var(--backgroundColor);
 		border-width: 5px;
 
 		font-size: 48px;
@@ -264,8 +269,8 @@ body {
 @media screen and (min-width: 1440px) {
 
 	.topic {
-		background-color: white;
-		color: black;
+		background-color: var(--backgroundColor);
+		color: var(--fontColor);
 		padding: 15px;
 		border-width: 5px;
 		border-color: red;
@@ -278,7 +283,7 @@ body {
 
 	.sekcja {
 		box-sizing: border-box;
-		background-color: white;
+		background-color: var(--backgroundColor);
 		border-width: 5px;
 		font-size: 48px;
 
@@ -299,4 +304,10 @@ body {
 		flex-direction: row;
 		justify-content: center;
 	}
+}
+@media (prefers-color-scheme: dark) {
+	:root{
+--fontColor: white;
+--backgroundColor: black;
+}
 }

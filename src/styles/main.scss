@@ -27,8 +27,8 @@ body {
 }
 
 .topic {
-	background-color: green;
-	color: red;
+	background-color: rgb(211, 0, 158);
+	color: black;
 	padding: 15px;
 	border-width: 5px;
 	border-color: red;
@@ -63,7 +63,7 @@ body {
 	max-height: 100%;
 	font-size: 16px;
     &__naglowek {
-        color: blueviolet;
+        color: rgb(46, 43, 226);
         padding: 30px;
         max-width: 250px;
         max-height: 100px;
@@ -72,7 +72,7 @@ body {
         font-size: 100%;
     }
     &__akapit {
-        color: brown;
+        color: rgb(12, 0, 78);
         padding: 40px;
         max-width: 250px;
         max-height: 100px;
@@ -101,7 +101,7 @@ body {
         gap: 16px;
     }
     &__naglowekmaly {
-        color: brown;
+        color: rgb(78, 0, 0);
         padding: 25px;
         max-width: 250px;
         max-height: 100px;
@@ -179,7 +179,7 @@ body {
 }
 
 .sekcja__naglowek2 {
-	color: blueviolet;
+	color: rgb(47, 0, 92);
 	background-color: aqua;
 	font-size: 100%;
 	max-width: 100%;
@@ -202,8 +202,8 @@ body {
 @media screen and (min-width: 768px) {
 
 	.topic {
-		background-color: green;
-		color: red;
+		background-color: white;
+		color: black;
 		padding: 15px;
 		border-width: 5px;
 		border-color: red;
@@ -216,7 +216,7 @@ body {
 
 	.sekcja {
 		box-sizing: border-box;
-		background-color: rgb(94, 255, 0);
+		background-color: white;
 		border-width: 5px;
 
 		font-size: 48px;
@@ -229,7 +229,7 @@ body {
 
 	.navigation {
 		padding: 16px;
-		background: rebeccapurple;
+		background: rgb(63, 1, 44);
 		flex-direction: row;
 		display: flex;
 		justify-content: center;
@@ -261,8 +261,8 @@ body {
 @media screen and (min-width: 1440px) {
 
 	.topic {
-		background-color: green;
-		color: red;
+		background-color: white;
+		color: black;
 		padding: 15px;
 		border-width: 5px;
 		border-color: red;
@@ -275,7 +275,7 @@ body {
 
 	.sekcja {
 		box-sizing: border-box;
-		background-color: rgb(94, 255, 0);
+		background-color: white;
 		border-width: 5px;
 		font-size: 48px;
 

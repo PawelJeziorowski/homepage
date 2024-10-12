@@ -29,10 +29,10 @@ console.log(alaMaKota);
   console.log(result);
   console.log (subNum);
 
-  function countTable (a){
+  function countTable (tablica){
     let b = 0;
-    for (let element of a){
-      b=b+a[element];
+    for (let element of tablica){
+      b = b + element;
     }
     return b;
   }

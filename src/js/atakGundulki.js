@@ -31,10 +31,10 @@ console.log(alaMaKota);
 
   function countTable (a){
     let b = 0;
-    for ( let element of a){
+    for (let element of a){
       b=b+a;
     }
-
+    return b;
   }
   const table = [1,2,3,4,5,6,7,8,9];
   console.log(countTable(table));

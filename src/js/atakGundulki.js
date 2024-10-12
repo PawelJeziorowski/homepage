@@ -32,7 +32,7 @@ console.log(alaMaKota);
   function countTable (a){
     let b = 0;
     for (let element of a){
-      b=b+a;
+      b=b+a[element];
     }
     return b;
   }

@@ -28,3 +28,14 @@ const result = setDate(new Date(2014, 8, 1), 30)
 console.log(alaMaKota);
   console.log(result);
   console.log (subNum);
+
+  function countTable (a){
+    let b = 0;
+    for ( let element of a){
+      b=b+a;
+    }
+
+  }
+  const table = [1,2,3,4,5,6,7,8,9];
+  console.log(table);
+  

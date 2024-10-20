@@ -62,6 +62,64 @@ body {
 
 }
 
+@keyframes kot {
+	0% {
+
+		transform: rotate(0deg);
+	}
+
+	50% {
+
+		transform: rotate(-1440deg);
+	}
+
+	100% {
+
+		transform: rotate(0deg);
+	}
+}
+@keyframes kot2 {
+	0% {
+		transform: translate(13rem);
+
+	}
+
+	50% {
+		transform: translate(-13rem);
+
+	}
+
+	100% {
+		transform: translate(13rem);
+	}
+}
+
+.cat {
+	display: inline-block;
+	font-size: 3rem;
+	transform-origin: center center;
+	animation: kot linear 8s infinite;
+}
+.cat2 {
+	display: inline-block;
+
+	transform-origin: center center;
+	animation: kot2 linear 8s infinite;
+}
+
+//rotate(180dag)
+//translate(13rem);
+//.cat{
+//transition: transform 5s ease-in-out;
+//	transform-origin: center center;
+//transform: translate(26rem) rotate(180deg);
+//	transform: rotate(180deg);
+//transform: translate(6rem);
+//}
+//.cat:hover{
+//	transform: translate(26rem) rotate(180deg);
+//}
+
 .sekcja {
 	box-sizing: border-box;
 	background-color: var(--backgroundColor);
@@ -318,8 +376,9 @@ body {
 		}
 	}
 
-	
+
 }
+
 @media (prefers-color-scheme: dark) {
 	:root {
 		--fontColor: white;

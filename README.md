@@ -1,6 +1,6 @@
 # Strona o Gundulce
 
-Jest to strona o Gundulce powstała w ramach szkolenia WTF: co ten fronten?
+Jest to strona o Gundulce powstała w ramach szkolenia WTF: co ten frontend?
 
 ## Zastosowane technologie:
 - HTML,
